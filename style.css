@@ -1,0 +1,86 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  background: #0f0f0f;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background: #111;
+  border-bottom: 2px solid #19dbff;
+}
+
+.logo img {
+  height: 60px;
+}
+
+nav a {
+  margin-left: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 120px 20px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  text-shadow: 0 0 20px #19dbff;
+}
+
+.buy {
+  background: #19dbff;
+  padding: 12px 25px;
+  border-radius: 6px;
+  border: none;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.store {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  padding: 60px;
+}
+
+.product {
+  background: #1a1a1a;
+  padding: 30px;
+  width: 300px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.product-art {
+  height: 150px;
+  background: #222;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #19dbff;
+}
+
+.price {
+  font-size: 22px;
+  color: #19dbff;
+}
+
+.desc {
+  color: #ccc;
+  font-size: 14px;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  border-top: 1px solid #222;
+}
